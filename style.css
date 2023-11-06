@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+h2{
+    color: darkolivegreen;
+}
+
+body{
+    background-color: lightgrey;
+}
+.pets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+button{
+    padding: 10px 10px;
+    width: 100px;
+    background-color: pink;
+    border-radius: 10px;
+    cursor:pointer;
+    color: darkolivegreen;
+
+}
+input{
+    padding:10px 10px ;
+    background-color: pink;
+    border-radius: 10px;
+    width: 100px;
+
+
+}
+.img{
+   width: 100%;
+   padding: 50px;
+
+}
